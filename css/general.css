@@ -1,0 +1,81 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	font: normal 100%/1.4 Arial, Helvetica, sans-serif;
+	background: url(../images/glow.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	box-shadow: 0 0 .75em #CCC;
+}
+
+.flex-img {
+	width: 100%;
+}
+
+figure {
+	background-color: #F60;
+	margin: 0;
+}
+
+figcaption {
+	padding: 0.5em;
+	color: #FFF;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.75em;
+	color: #000;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	color: #F60;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 0.5em;
+}
+
+article a {
+	color: #F60;
+}
+
+dd {
+	font-size: .9em;
+	margin: 0;
+}
+
+dd a {
+	padding-right: 1em;
+}
+
+@media only screen and (min-width: 30em) {
+	
+	figure {
+		float: left;
+		width: 40%;
+	}
+
+	article {
+		float: left;
+		width: 56%;
+		min-height: 33.75em;
+	}
+	
+	header {
+		max-width: 75em;
+	}
+}
+

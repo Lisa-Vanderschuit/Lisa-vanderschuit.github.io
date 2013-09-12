@@ -1,3 +1,3 @@
-# Lisa's Porfolio
+# Lisa's Portfolio
 
 Portfolio Website (Responsive)

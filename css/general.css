@@ -14,7 +14,7 @@ html {
 }
 
 nav {
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.85);
 	margin: 0;
 	padding: 0.01em;
 	width: 100%;
@@ -81,7 +81,7 @@ h3 {
 }
 
 article {
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.8);
 	padding: 0.5em;
 }
 
@@ -100,7 +100,7 @@ dd a {
 
 footer {
 	padding: 0.5em;
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 footer a {
@@ -117,8 +117,30 @@ footer a {
 	article {
 		float: right;
 		width: 60%;
+		margin-bottom: 0.5em;
+	}
+}
+
+@media only screen and (min-width: 70em) {
+	
+	figure {
+		float: left;
+		width: 24em;
+	}
+
+	article {
+		float: right;
+		width: 63%;
+		min-height: 29.5em;
 	}
 	
 }
 
+@media only screen and (min-width: 80em) {
+	
 
+	article {
+		width: 68%;
+	}
+	
+}

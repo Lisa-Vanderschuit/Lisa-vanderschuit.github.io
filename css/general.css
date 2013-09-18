@@ -13,6 +13,38 @@ html {
 	background-size: cover;
 }
 
+nav {
+	background-color: #000;
+	margin: 0;
+	padding: 0.01em;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	padding-right: .5em;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	color: #F60;
+	border-bottom: solid #F60;
+}
+
+nav .selected {
+	border-bottom: 3px solid #F60;
+}
+
+
 body {
 	box-shadow: 0 0 .75em #CCC;
 }
@@ -43,8 +75,13 @@ h2 {
 	color: #F60;
 }
 
+h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
 article {
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.75);
 	padding: 0.5em;
 }
 
@@ -61,21 +98,11 @@ dd a {
 	padding-right: 1em;
 }
 
-@media only screen and (min-width: 30em) {
-	
-	figure {
-		float: left;
-		width: 40%;
-	}
-
-	article {
-		float: left;
-		width: 56%;
-		min-height: 33.75em;
-	}
-	
-	header {
-		max-width: 75em;
-	}
+footer {
+	padding: 0.5em;
+	background-color: rgba(255, 255, 255, 0.75);
 }
 
+footer a {
+	color: #F60;
+}

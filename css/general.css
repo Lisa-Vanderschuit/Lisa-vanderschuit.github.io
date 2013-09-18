@@ -106,3 +106,19 @@ footer {
 footer a {
 	color: #F60;
 }
+
+@media only screen and (min-width: 40em) {
+	
+	figure {
+		float: left;
+		width: 35%;
+	}
+
+	article {
+		float: right;
+		width: 60%;
+	}
+	
+}
+
+

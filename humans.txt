@@ -1,0 +1,12 @@
+# PEOPLE
+
+Designer: Lisa Villeneuve
+
+# THANKS
+
+
+# TOOLS
+
+Sublime Text
+Bootstrap
+Bootsnip

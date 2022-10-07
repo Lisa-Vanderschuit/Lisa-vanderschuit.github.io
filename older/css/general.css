@@ -1,0 +1,279 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@-viewport { width: device-width; scale: 1; }
+
+body::-webkit-scrollbar {
+  background-color: #eee;
+  -webkit-box-shadow: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 3px solid #eee;
+  background-color: #0CF;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #00a3cc;
+}
+
+::selection {
+  background: #0CF;
+  color: #FFF;
+  }
+::-webkit-selection {
+  background: #0CF;
+  color: #FFF;
+}
+::-moz-selection {
+  background: #0CF;
+  color: #FFF;
+}
+::-o-selection {
+  background: #0CF;
+  color: #FFF;
+}
+::-mz-selection {
+  background: #0CF;
+  color: #FFF;
+}
+
+
+
+html {
+	background-color: #FFF;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #039;
+}
+
+strong {
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	margin: 0;
+}
+
+figure img {
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .25);
+}
+
+header {
+	background-color: #FFF;
+	text-align: center;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+	border-bottom: 5px solid #0CF;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .25);
+}
+
+.logo {
+}
+
+.logo img {
+	max-width: 10em;
+	padding: 1em;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+	filter:alpha(opacity=75);
+	opacity: 0.75;
+}
+
+nav {
+}
+
+nav li {
+	display: inline;
+	padding: .5em;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display: inline-block;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #039;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	color: #06C;
+	border-bottom: solid #0CF;
+}
+
+nav .selected {
+	border-bottom: 3px solid #0CF;
+}
+
+
+
+body {
+	line-height: 1.5em;
+}
+
+
+
+p {
+	font-size: 1em;
+	padding-bottom: .75em;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #0CF;
+	font-size: 2em;
+	padding-bottom: .25em;
+}
+
+h2 {
+	color: #039;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+figcaption {
+	padding-bottom: 1em;
+}
+
+
+
+.billboard {
+	background-color: #CFF;
+	display: inline-block;
+	padding: 1.5em;
+}
+
+.billboard a {
+	color: #666;
+}
+
+.wrapper {
+	display: inline-block;
+	padding: 1.5em;
+	background-color: #FFF;
+}
+
+
+.logo2 img {
+	max-width: 20em;
+	display: block;
+	margin: auto;
+}
+
+.logo2:hover,
+.logo2:focus,
+.logo2:active {
+	filter:alpha(opacity=75);
+	opacity: 0.75;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+}
+
+footer {
+	padding: .5em;
+	background-color: rgba(0,204,255,.9);
+	text-align: center;
+	bottom: 0;
+	font-size: 0.75em;
+}
+
+footer h2 {
+	color: #FFF;
+	font-size: 1.75em;
+}
+
+footer p {
+	color: #FFF;
+	margin: 0;
+}
+
+footer a {
+	color: #CFF;
+	font-size: 1em;
+}
+
+.wrapper {
+	margin-bottom: 5em;
+}
+
+@media only screen and (min-width: 40em) {
+
+	html {
+		background-image: url(../images/dark_wood.png);
+	}
+
+	.wrapper {
+		margin-top: 1em;
+		margin-bottom: 10em;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.billboard {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+}
+
+@media only screen and (min-width: 65em) {
+
+	.wrapper {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.billboard {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+	.wrapper {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+	.billboard {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.clearfix {
+	*zoom: 1; /* You will get a CSS validator error on this line */
